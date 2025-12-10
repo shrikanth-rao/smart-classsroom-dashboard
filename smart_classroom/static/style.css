@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+#attendance, #sensors {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 400px;
+}
