@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Classroom Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Smart Classroom Dashboard</h1>
+
+    <div id="attendance">
+        <h2>Attendance</h2>
+        <ul id="attendance-list"></ul>
+    </div>
+
+    <div id="sensors">
+        <h2>Sensor Data</h2>
+        <p>Temperature: <span id="temperature">0</span>°C</p>
+        <p>Light: <span id="light">0</span> lux</p>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
