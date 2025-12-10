@@ -1,3 +1,6 @@
-flask
-flask-cors
-gunicorn
+Flask==2.3.2
+requests==2.31.0
+numpy==1.25.2
+deepface==0.0.82
+opencv-python-headless==4.8.1.78
+
